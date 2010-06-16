@@ -3,5 +3,6 @@ sidux-art-keres (0.0) unstable; urgency=low
   * Initial Release.
   * add current draft wallpaper Works In Progress (sorry about size, this will change)
   * add middle frame lipstick chick from klaymen
+  * remove frame2-lips altogether, something in it is broken
 
- -- Bernard Gray <bernard.gray@gmail.com>  Wed, 16 Jun 2010 22:19:48 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 16 Jun 2010 22:27:20 +1000
