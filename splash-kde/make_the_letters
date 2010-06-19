@@ -8,8 +8,8 @@ anim=_anim
 
 for letter in ${letters[@]}
 do
-./svg-anim-r2skew2-fix.pl $letter.svg 30 $letter$anim.svg scaley,0:1,1:30,sin:base opacity,0:1,1:30,sin
-./svg-anim-r2skew2-fix.pl $letter$s.svg 30 $letter$s$anim.svg skewX,0:1,-45:30,sin scaley,0:0,1:30,sin:base opacity,0:1,1:30,sin
+./svg-anim.pl $letter.svg 30 $letter$anim.svg scaley,0:1,1:30,sin:base opacity,0:1,1:30,sin
+./svg-anim.pl $letter$s.svg 30 $letter$s$anim.svg skewX,0:1,-45:30,sin scaley,0:0,1:30,sin:base opacity,0:1,1:30,sin
 inkscape --without-gui --export-png="$letter$anim.png" $letter$anim.svg
 inkscape --without-gui --export-png="$letter$s$anim.png" $letter$s$anim.svg
 ./composite_pngs.pl -o $theme/$res/$letter.png $letter$s$anim.png $letter$anim.png
