@@ -1,8 +1,12 @@
 sidux-art-keres (0.0) unstable; urgency=low
 
+  [ Bernard Gray ]
   * Initial Release.
   * add current draft wallpaper Works In Progress (sorry about size, this will change)
   * add middle frame lipstick chick from klaymen
   * remove frame2-lips altogether, something in it is broken
 
- -- Bernard Gray <bernard.gray@gmail.com>  Wed, 16 Jun 2010 22:27:20 +1000
+  [ Niall Walsh ]
+  * svg-anim.pl: rename, fix matrix, make other values take ~ for multi-values
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Sun, 20 Jun 2010 16:09:00 +0100

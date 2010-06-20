@@ -157,29 +157,19 @@ for $f (1..($frames))
 	foreach (@effects)
 	{
 		if ( ($f >= $$_{'start'}{'frame'}) && ($f <= $$_{'end'}{'frame'}) ) {
-			my $v;
-			if ($$_{'name'}!~/^matrix$/)
-			{
-				$v = sprintf("%.6f",$$_{'start'}{'value'} +
-					($f - $$_{'start'}{'frame'}) * (
-					($$_{'end'}{'value'} - $$_{'start'}{'value'}) /
-					($$_{'end'}{'frame'} - $$_{'start'}{'frame'} ) ) );
-			}
-			else
-			{
-				my(@v);
+			my $v=0;
+				my(@v)=[];
 				my @ms=split('~',$$_{'start'}{'value'});
 				my @mf=split('~',$$_{'end'}{'value'});
 				my($mc)=0;
 				my $ms;
 				foreach $ms (@ms) {
-					push(@v,sprintf("%.6f",$ms +
+					$v[$mc]=sprintf("%.6f", $ms +
 						($f - $$_{'start'}{'frame'}) * (
 						($mf[$mc] - $ms) /
-						($$_{'end'}{'frame'} - $$_{'start'}{'frame'} ) ) ) );
+						($$_{'end'}{'frame'} - $$_{'start'}{'frame'} ) ) ) ;
+					$mc++;
 				}
-				$v=join(',',@v);
-			}
 			if ($$_{'sin'})
 			{
 				if (($$_{'name'}=~/^skew/)||($$_{'name'}=~/^rotate$/))
@@ -188,9 +178,16 @@ for $f (1..($frames))
 				}
 				else
 				{
-					$v = sin($v*pi/2);
+					$mc=0;
+					my $mv;
+					foreach $mv (@v)
+					{
+						$v[$mc] = sin($mv*pi/2);
+						$mc++;
+					}
 				}
 			}
+			$v=join(',',@v);
 			if ($$_{'name'}=~/^saturate$/i) {
 				$h.='<g filter="url(#saturate'.$id.')">';
 				$t='</g>'."\n".$t;
