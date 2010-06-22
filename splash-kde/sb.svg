@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.47+devel r"
-   sodipodi:docname="u.svg"
+   sodipodi:docname="sb.svg"
    inkscape:export-filename="/home/rick/sidux-art/ksplash themes/sidux-keres/sidux-ksplash-keres-master.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -382,9 +382,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="605.6046"
-     inkscape:cy="613.09885"
+     inkscape:zoom="2.25"
+     inkscape:cx="182.99349"
+     inkscape:cy="578.95996"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -412,23 +412,42 @@
      transform="translate(0,147.63782)"
      style="display:inline">
     <g
-       transform="translate(-149.85728,262.85717)"
-       id="layer1-0"
-       inkscape:label="Layer 1"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3366"
-         y="275.88254"
-         x="95.488327"
-         style="font-size:265.02047728999997389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="65.515884"
+       id="g4289"
+       style="filter:url(#filter4295)"
+       transform="translate(-475,320.95363)">
+      <g
+         transform="translate(392.14271,-66.031719)"
+         id="g3835"
+         inkscape:label="Layer 1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4115)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3837"
            y="275.88254"
            x="95.488327"
-           id="tspan3368"
-           sodipodi:role="line"
-           style="letter-spacing:-1.88605106000000000;fill:#ffffff;fill-opacity:1;stroke:none">u</tspan></text>
+           style="font-size:265.02047729px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
+           xml:space="preserve"><tspan
+             dx="0"
+             y="275.88254"
+             x="95.488327"
+             id="tspan3839"
+             sodipodi:role="line"
+             style="letter-spacing:-1.88605106;fill:#ffffff;fill-opacity:1;stroke:none">s</tspan></text>
+      </g>
+      <rect
+         y="400"
+         x="600"
+         height="100"
+         width="500"
+         id="rect4279"
+         style="fill:none;stroke:none" />
+      <rect
+         style="fill:none;stroke:none"
+         id="rect3037"
+         width="500"
+         height="100"
+         x="600"
+         y="-200" />
     </g>
   </g>
 </svg>

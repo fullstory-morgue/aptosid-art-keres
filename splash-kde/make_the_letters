@@ -3,13 +3,13 @@
 theme=sidux-keres
 res=1920x1200
 letters=( s i d u x )
-s=s
+s=b
 anim=_anim
 
 for letter in ${letters[@]}
 do
-./svg-anim.pl $letter.svg 30 $letter$anim.svg scaley,0:1,1:30,sin:base opacity,0:1,1:30,sin
-./svg-anim.pl $letter$s.svg 30 $letter$s$anim.svg skewX,0:1,-45:30,sin scaley,0:0,1:30,sin:base opacity,0:1,1:30,sin
+./svg-anim.pl $letter.svg 30 $letter$anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl $letter$s.svg 30 $letter$s$anim.svg translate,0~-800:1,0~800:30
 inkscape --without-gui --export-png="$letter$anim.png" $letter$anim.svg
 inkscape --without-gui --export-png="$letter$s$anim.png" $letter$s$anim.svg
 ./composite_pngs.pl -o $theme/$res/$letter.png $letter$s$anim.png $letter$anim.png

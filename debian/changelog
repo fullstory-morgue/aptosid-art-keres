@@ -10,6 +10,7 @@ sidux-art-keres (0.0) unstable; urgency=low
   * svg-anim.pl: rename, fix matrix, make other values take ~ for multi-values
 
   [ Rick Battle ]
-  * removed from from the ksplash theme ... don't worry - he'll probably reappear before the theme is done. 
+  * removed fred from the ksplash theme ... don't worry - he'll probably reappear before the theme is done. 
+  * initial commit of new keres ksplash theme
 
- -- Rick Battle <rick.battle@celtrenicdesigns.com>  Mon, 21 Jun 2010 23:13:28 -0400
+ -- Rick Battle <rick.battle@celtrenicdesigns.com>  Mon, 21 Jun 2010 23:25:14 -0400

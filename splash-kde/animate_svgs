@@ -1,0 +1,12 @@
+#!/bin/bash
+
+./svg-anim.pl s.svg 30 s_anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl i.svg 30 i_anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl d.svg 30 d_anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl u.svg 30 u_anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl x.svg 30 x_anim.svg translate,0~-800:1,0~0:15 opacity,0.2:1,0.2:14 opacity,0.2:15,1:30
+./svg-anim.pl sb.svg 30 sb_anim.svg translate,0~-800:1,0~800:30
+./svg-anim.pl ib.svg 30 ib_anim.svg translate,0~-800:1,0~800:30
+./svg-anim.pl db.svg 30 db_anim.svg translate,0~-800:1,0~800:30
+./svg-anim.pl ub.svg 30 ub_anim.svg translate,0~-800:1,0~800:30
+./svg-anim.pl xb.svg 30 xb_anim.svg translate,0~-800:1,0~800:30
