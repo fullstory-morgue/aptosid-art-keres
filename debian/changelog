@@ -6,6 +6,7 @@ sidux-art-keres (0.0) unstable; urgency=low
   * add middle frame lipstick chick from klaymen
   * remove frame2-lips altogether, something in it is broken
   * delete debian.hypnos template directory 
+  * add first draft background to wallpaper
 
   [ Niall Walsh ]
   * svg-anim.pl: rename, fix matrix, make other values take ~ for multi-values
@@ -14,4 +15,4 @@ sidux-art-keres (0.0) unstable; urgency=low
   * removed fred from the ksplash theme ... don't worry - he'll probably reappear before the theme is done. 
   * initial commit of new keres ksplash theme
 
- -- Bernard Gray <bernard.gray@gmail.com>  Sun, 08 Aug 2010 12:52:33 +1000
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 08 Aug 2010 14:24:37 +1000
