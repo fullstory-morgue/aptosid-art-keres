@@ -113,7 +113,7 @@
          id="feBlend4216-4" />
       <feConvolveMatrix
          result="fbSourceGraphic"
-         edgeMode="duplicate"
+         edgeMode="none"
          divisor="2"
          targetY="1"
          targetX="1"

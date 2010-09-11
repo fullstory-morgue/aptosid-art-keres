@@ -9,7 +9,9 @@ files:
 	mkdir $(THEME)
 	cp session.png $(THEME)
 	cp system.png $(THEME)
-	cp aptosid-keres.xml $(THEME)
+	cp GdmGreeterTheme.desktop $(THEME)
+	cp keres.xml $(THEME)
+	cp oxygen.svg $(THEME)
 	cp screenshot.png $(THEME)
 
 background:

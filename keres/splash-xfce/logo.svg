@@ -256,7 +256,7 @@
          targetX="1"
          targetY="1"
          divisor="2"
-         edgeMode="duplicate"
+         edgeMode="none"
          result="fbSourceGraphic" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
@@ -532,7 +532,7 @@
          id="feBlend4216-9" />
       <feConvolveMatrix
          result="fbSourceGraphic"
-         edgeMode="duplicate"
+         edgeMode="none"
          divisor="2"
          targetY="1"
          targetX="1"
@@ -992,7 +992,7 @@
        style="display:inline"
        transform="matrix(0.76878217,0,0,0.76878217,1064.4029,547.05376)"
        id="layer1-2"
-       inkscape:label="aptosid">
+       inkscape:label="sidux">
       <g
          style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202-5)"
          transform="matrix(1.2402429,0,0,1.2402429,-88.63882,-1410.7384)"
