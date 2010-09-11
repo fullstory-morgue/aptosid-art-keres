@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 THEME= sidux-keres
-BITMAPS= files background fred sidux
+BITMAPS= files background comic-fred sidux
 
 all: $(BITMAPS)
 
@@ -18,12 +18,12 @@ background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
 		--export-png="$(THEME)/background.png" $@.svg
 
-fred:
-	inkscape --without-gui --export-width=94 --export-height=100 \
+comic-fred:
+	inkscape --without-gui --export-width=108 --export-height=116 \
 		--export-png="$(THEME)/$@.png" $@.svg
 
 sidux:
-	inkscape --without-gui --export-width=259 --export-height=111 \
+	inkscape --without-gui --export-width=258 --export-height=134 \
 		--export-png="$(THEME)/$@.png" $@.svg
 
 clean:

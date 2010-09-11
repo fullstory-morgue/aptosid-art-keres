@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-Copyright 2010 Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright 2010 Rick Battle <detaos@sidux.com>
 Copyright 2009 David Creedy <klaymen@sidux.com>
 Copyright 2009 Niall Walsh <niallwalsh@users.berlios.de>
 files: session.png, system.png and oyxgen.svg -
@@ -31,10 +31,10 @@ files: session.png, system.png and oyxgen.svg -
 		<pos anchor="nw" x="0%" y="0%" width="100%" height="100%"/>
 	</item>
 	<!--Sidux text-->
-	<item type="pixmap" id="logo" >
+	<!--item type="pixmap" id="logo" >
 		<normal file="sidux.png"/>
 		<pos anchor="nw" x="20" y="20" />
-	</item>
+	</item-->
 	<!--Welcome label-->
 	<item type="label" id="welcome">
 		<pos anchor="nw" x="290" y="75"/>
@@ -57,7 +57,7 @@ files: session.png, system.png and oyxgen.svg -
 				<box orientation="horizontal" spacing="20" xpadding="20">
 					<!--Scorpion icon-->
 					<item type="pixmap" id="branding">
-						<normal file="fred.png"/>
+						<normal file="comic-fred.png"/>
 					</item>
 					<!--Userlist-->
 					<item type="list" id="userlist">
