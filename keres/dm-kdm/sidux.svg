@@ -7,14 +7,13 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="258.08267"
    height="133.97398"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="sidux.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:modified="true"
@@ -24,187 +23,7 @@
    inkscape:export-ydpi="90"
    style="display:inline">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5088"
-       id="linearGradient5094"
-       x1="1667.4966"
-       y1="281.86401"
-       x2="1667.4966"
-       y2="104.32729"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5088">
-      <stop
-         style="stop-color:#af0000;stop-opacity:1;"
-         offset="0"
-         id="stop5090" />
-      <stop
-         style="stop-color:#af0000;stop-opacity:0;"
-         offset="1"
-         id="stop5092" />
-    </linearGradient>
-    <filter
-       id="filter4202"
-       inkscape:label="Motion blur, vertical"
-       inkscape:menu="Blurs"
-       inkscape:menu-tooltip="Blur as if the object flies vertically; adjust Standard Deviation to vary force"
-       color-interpolation-filters="sRGB"
-       width="2"
-       height="4"
-       y="-1.6"
-       x="-0.5">
-      <feTurbulence
-         id="feTurbulence4204"
-         baseFrequency="0.14299516908212559"
-         numOctaves="2"
-         type="fractalNoise" />
-      <feColorMatrix
-         id="feColorMatrix4206"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
-         result="result5" />
-      <feComposite
-         id="feComposite4208"
-         in2="result5"
-         operator="in"
-         in="SourceGraphic"
-         result="result6" />
-      <feMorphology
-         id="feMorphology4210"
-         result="result3"
-         radius="5"
-         operator="dilate"
-         in="result6" />
-      <feDisplacementMap
-         id="feDisplacementMap4212"
-         in2="result3"
-         result="result4"
-         scale="35.507246"
-         yChannelSelector="A"
-         xChannelSelector="R"
-         in="result3" />
-      <feComposite
-         k4="0"
-         k2="0"
-         id="feComposite4214"
-         in2="result4"
-         operator="arithmetic"
-         result="result2"
-         k1="1"
-         k3="1" />
-      <feBlend
-         id="feBlend4216"
-         in2="result2"
-         mode="darken"
-         in="result2" />
-      <feConvolveMatrix
-         id="feConvolveMatrix4218"
-         order="3 3"
-         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
-         targetX="1"
-         targetY="1"
-         divisor="2"
-         edgeMode="duplicate"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix4220" />
-      <feGaussianBlur
-         id="feGaussianBlur4222"
-         result="result1"
-         in="fbSourceGraphic"
-         stdDeviation="5" />
-      <feTurbulence
-         id="feTurbulence4224"
-         result="result0"
-         numOctaves="8"
-         baseFrequency="0.02" />
-      <feDisplacementMap
-         id="feDisplacementMap4226"
-         in2="result0"
-         result="result2"
-         scale="40"
-         yChannelSelector="G"
-         xChannelSelector="R"
-         in="result1" />
-      <feColorMatrix
-         id="feColorMatrix4229"
-         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
-         result="result3" />
-      <feGaussianBlur
-         id="feGaussianBlur4231"
-         result="result4"
-         in="fbSourceGraphic"
-         stdDeviation="1.1" />
-      <feComposite
-         id="feComposite4233"
-         in2="result3"
-         in="result4"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix4268" />
-      <feGaussianBlur
-         id="feGaussianBlur4270"
-         stdDeviation="0.01"
-         result="result1"
-         in="fbSourceGraphic" />
-      <feBlend
-         id="feBlend4272"
-         in2="result1"
-         result="fbSourceGraphic"
-         mode="multiply" />
-      <feTurbulence
-         id="feTurbulence4274"
-         baseFrequency="0.8"
-         type="fractalNoise"
-         seed="0"
-         numOctaves="3"
-         result="result3" />
-      <feDisplacementMap
-         id="feDisplacementMap4276"
-         in2="result3"
-         in="fbSourceGraphic"
-         xChannelSelector="R"
-         yChannelSelector="G"
-         scale="50"
-         result="result2" />
-      <feMorphology
-         id="feMorphology4278"
-         radius="1"
-         operator="dilate"
-         result="result4" />
-      <feBlend
-         id="feBlend4280"
-         in2="result2"
-         mode="screen"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix4282" />
-      <feGaussianBlur
-         id="feGaussianBlur4284"
-         in="fbSourceGraphic"
-         stdDeviation="0.01 60" />
-    </filter>
-    <linearGradient
-       y2="104.32729"
-       x2="1667.4966"
-       y1="281.86401"
-       x1="1667.4966"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3230"
-       xlink:href="#linearGradient5088"
-       inkscape:collect="always" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#000000"
@@ -220,10 +39,10 @@
      inkscape:cy="127.98573"
      inkscape:document-units="px"
      inkscape:current-layer="layer14"
-     inkscape:window-width="1600"
-     inkscape:window-height="1145"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3"
+     inkscape:window-width="1912"
+     inkscape:window-height="1153"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      showgrid="false"
      borderlayer="true"
      inkscape:window-maximized="1"
@@ -239,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -248,43 +67,16 @@
      id="layer14"
      inkscape:label="sidux"
      transform="translate(-1041.2135,-927.10276)">
-    <g
-       transform="matrix(0.35069527,0,0,0.35069527,1039.9966,925.34166)"
-       id="g4183"
-       inkscape:label="Layer 1"
-       style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202);enable-background:new">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4185"
-         y="275.88254"
-         x="95.488327"
-         style="font-size:265.02047729px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         xml:space="preserve"><tspan
-           dx="0 -8.5714283 3.3567221 -11.428571 -11.428571"
-           y="275.88254"
-           x="95.488327"
-           id="tspan4187"
-           sodipodi:role="line"
-           style="letter-spacing:-1.88605106;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">sidux</tspan></text>
-    </g>
-    <g
-       style="fill:url(#linearGradient5094);fill-opacity:1;stroke:#ffffff;stroke-width:3.85743666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none;display:inline;enable-background:new"
-       inkscape:label="Layer 1"
-       id="g4954"
-       transform="matrix(0.35069527,0,0,0.35069527,1039.9966,925.34166)">
-      <text
-         xml:space="preserve"
-         style="font-size:265.02047729px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3230);fill-opacity:1;stroke:#ffffff;stroke-width:3.85743666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-         x="95.488327"
-         y="275.88254"
-         id="text4956"
-         sodipodi:linespacing="125%"><tspan
-           style="letter-spacing:-1.88605106;fill:url(#linearGradient3230);fill-opacity:1;stroke:#ffffff;stroke-width:3.85743666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none"
-           sodipodi:role="line"
-           id="tspan4958"
-           x="95.488327"
-           y="275.88254"
-           dx="0 -8.5714283 3.3567221 -11.428571 -11.428571">sidux</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Dustismo;-inkscape-font-specification:Dustismo"
+       x="1048.2135"
+       y="1016.0767"
+       id="text2849"><tspan
+         sodipodi:role="line"
+         id="tspan2851"
+         x="1048.2135"
+         y="1016.0767"
+         style="fill:#ff0000">aptosid</tspan></text>
   </g>
 </svg>
