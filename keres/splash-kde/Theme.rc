@@ -1,0 +1,8 @@
+[KSplash Theme: sidux-keres]
+Name = sidux 2010-02 (Keres) Splash Screen
+Description = sidux Keres Splash Screen
+Version = 1.0
+Author = Rick Battle <detaos@sidux.com>
+Homepage = http://www.sidux.com
+# Theme behaviour settings.
+Engine = KSplashX

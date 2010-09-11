@@ -1,18 +1,83 @@
-sidux-art-keres (0.0) unstable; urgency=low
+sidux-art-keres (0.2.0) unstable; urgency=low
+
+  * update artwork.
+  * drop intermediate comic-frames.svg.
+  * drop Κῆρες from logo.
+  * add quick'n'dirty 4:3 variant.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 22:16:11 +0200
+
+sidux-art-keres (0.1.7) unstable; urgency=low
+
+  * align wallpaper elements for temporary artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Aug 2010 00:35:19 +0200
+
+sidux-art-keres (0.1.6) unstable; urgency=low
+
+  * nuke DOS line endings.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 23:23:09 +0200
+
+sidux-art-keres (0.1.5) unstable; urgency=low
+
+  * drop gtkrc from xfce-theme, it doesn't apply universally.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 18:56:16 +0200
+
+sidux-art-keres (0.1.4) unstable; urgency=low
+
+  [ Rick Battle ]
+  * update ksplash
+
+  [ Stefan Lippers-Hollmann ]
+  * move artwork to subfolder, in order to ease future merging with
+    sidux-art-legacy.
+  * remove no longer existing Makefile target for ksplash.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 03:26:56 +0200
+
+sidux-art-keres (0.1.3) unstable; urgency=low
+
+  * add first draft background to wallpaper
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Sun, 08 Aug 2010 13:52:33 +1000
+
+sidux-art-keres (0.1.2) unstable; urgency=low
+
+  * switch to compat level 8.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:10:43 +0200
+
+sidux-art-keres (0.1.1) unstable; urgency=low
+
+  * revise phrasing in debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 05:09:20 +0200
+
+sidux-art-keres (0.1.0) unstable; urgency=low
 
   [ Bernard Gray ]
   * Initial Release.
-  * add current draft wallpaper Works In Progress (sorry about size, this will change)
+  * add current draft wallpaper Works In Progress (sorry about size, this will
+    change)
   * add middle frame lipstick chick from klaymen
   * remove frame2-lips altogether, something in it is broken
-  * delete debian.hypnos template directory 
-  * add first draft background to wallpaper
 
   [ Niall Walsh ]
   * svg-anim.pl: rename, fix matrix, make other values take ~ for multi-values
 
   [ Rick Battle ]
-  * removed fred from the ksplash theme ... don't worry - he'll probably reappear before the theme is done. 
+  * removed fred from the ksplash theme ... don't worry - he'll probably
+    reappear before the theme is done.
   * initial commit of new keres ksplash theme
 
- -- Bernard Gray <bernard.gray@gmail.com>  Sun, 08 Aug 2010 14:24:37 +1000
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.9.1, no changes necessary.
+  * initial attempt at fixing debian/copyright strucurally.
+  * add detaos to uploaders.
+  * drop stale debian.hypnos/.
+  * switch to DEP5 machine-readable debian/copyright syntax (rev=135).
+  * elaborate long description a bit further, to make lintian happy.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Aug 2010 04:09:30 +0200

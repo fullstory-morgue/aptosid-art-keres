@@ -1,0 +1,12 @@
+#!/bin/bash
+
+inkscape -f svg_pieces/s.svg -e png_pieces/s.png
+inkscape -f svg_pieces/i.svg -e png_pieces/i.png
+inkscape -f svg_pieces/d.svg -e png_pieces/d.png
+inkscape -f svg_pieces/u.svg -e png_pieces/u.png
+inkscape -f svg_pieces/x.svg -e png_pieces/x.png
+inkscape -f svg_pieces/ss.svg -e png_pieces/ss.png
+inkscape -f svg_pieces/is.svg -e png_pieces/is.png
+inkscape -f svg_pieces/ds.svg -e png_pieces/ds.png
+inkscape -f svg_pieces/us.svg -e png_pieces/us.png
+inkscape -f svg_pieces/xs.svg -e png_pieces/xs.png

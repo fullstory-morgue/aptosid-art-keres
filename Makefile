@@ -1,9 +1,9 @@
 all:
-	for i in dm-gdm dm-kdm splash-kde splash-xfce wallpaper; \
+	for i in keres; \
 		do $(MAKE) -C $$i $@; done
 
 clean:
-	for i in dm-gdm dm-kdm splash-kde splash-xfce wallpaper; \
+	for i in keres; \
 		do $(MAKE) -C $$i $@; done
 
 distclean: clean
