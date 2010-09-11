@@ -1,3 +1,9 @@
+aptosid-art-keres (0.2.7) unstable; urgency=low
+
+  * fix graphics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 01 Sep 2010 01:22:57 +0200
+
 aptosid-art-keres (0.2.6) unstable; urgency=low
 
   * rename dm-gdm/keres.xml to dm-gdm/aptosid-keres.xml, thanks to x-un-i.
