@@ -1,8 +1,9 @@
 aptosid-art-keres (0.2.5) unstable; urgency=low
 
   * make scripts executable again.
+  * dm-gdm doesn't have KdmGreeterTheme.desktop, so don't try to install it.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 13:25:32 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 13:28:46 +0200
 
 aptosid-art-keres (0.2.4) unstable; urgency=low
 
