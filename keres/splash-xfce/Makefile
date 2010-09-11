@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= sidux-keres
+THEME= aptosid-keres
 BITMAPS= logo.png
 SVG= logo.svg
 

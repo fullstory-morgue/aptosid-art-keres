@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= sidux-keres
+THEME= aptosid-keres
 CONTROLDIR= 1920x1200
 PARTS= fred
 

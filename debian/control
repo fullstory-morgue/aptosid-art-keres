@@ -1,9 +1,9 @@
-Source: sidux-art-keres
+Source: aptosid-art-keres
 Section: graphics
 Priority: extra
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>,
- David Creedy <klaymen@sidux.com>,
+ David Creedy <klaymen@aptosid.com>,
  Rick Battle <rick.battle@celtrenicdesigns.com>
 Build-Depends: debhelper (>= 7.9.3),
  inkscape,
@@ -12,97 +12,97 @@ Build-Depends: debhelper (>= 7.9.3),
  libxml-parser-perl,
  ttf-dustin
 Standards-Version: 3.9.1
-Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-keres/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-keres/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-keres/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-keres/trunk/
 
-Package: sidux-art-gdm-keres
+Package: aptosid-art-gdm-keres
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux 2010-02 release
+Description: GDM theme for aptosid 2010-02 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: sidux 2010-02 (Κῆρες)
+ GDM artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-kde-keres
+Package: aptosid-art-kde-keres
 Architecture: all
-Provides: sidux-art-kde-theme
+Provides: aptosid-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-keres,
- sidux-art-kdm-keres
-Recommends: sidux-art-wallpaper-keres,
+ aptosid-art-ksplash-keres,
+ aptosid-art-kdm-keres
+Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
-Description: KDE theme for the sidux 2010-02 release
+Description: KDE theme for the aptosid 2010-02 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: sidux 2010-02 (Κῆρες)
+ KDE artwork metapackage for: aptosid 2010-02 (Κῆρες)
 
-Package: sidux-art-kdm-keres
+Package: aptosid-art-kdm-keres
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the sidux 2010-02 release
+Description: KDM theme for the aptosid 2010-02 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: sidux 2010-02 (Κῆρες)
+ KDM artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-ksplash-keres
+Package: aptosid-art-ksplash-keres
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the sidux 2010-02 release
+Description: KDE ksplash theme for the aptosid 2010-02 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: sidux 2010-02 (Κῆρες)
+ KDE ksplash artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-wallpaper-keres
+Package: aptosid-art-wallpaper-keres
 Architecture: all
-Provides: sidux-art-wallpaper-theme
+Provides: aptosid-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: sidux wallpaper for the 2010-02 release
+Description: aptosid wallpaper for the 2010-02 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: sidux 2010-02 (Κῆρες)
+ Wallpapers for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: sidux-art-xfce-keres
+Package: aptosid-art-xfce-keres
 Architecture: all
-Provides: sidux-art-xfce-theme
+Provides: aptosid-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-keres,
- sidux-art-gdm-keres
-Recommends: sidux-art-wallpaper-keres,
+ aptosid-art-xsplash-keres,
+ aptosid-art-gdm-keres
+Recommends: aptosid-art-wallpaper-keres,
  dmz-cursor-theme
-Description: Xfce theme for the sidux 2010-02 release
+Description: Xfce theme for the aptosid 2010-02 release
  release specific metapackage depending on xfce4-session, gdm and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: sidux 2010-02 (Κῆρες)
+ Xfce artwork metapackage for: aptosid 2010-02 (Κῆρες)
 
-Package: sidux-art-xsplash-keres
+Package: aptosid-art-xsplash-keres
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the sidux 2010-02 release
+Description: Xfce splash theme for the aptosid 2010-02 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidux 2010-02 (Κῆρες)
+ Xfce xsplash artwork for: aptosid 2010-02 (Κῆρες)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-theme=sidux-keres
+theme=aptosid-keres
 res1=1920x1200
 res2=1600x1200
 letters=( s i d u x )

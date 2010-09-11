@@ -1,10 +1,10 @@
 #
-# Default sidux 2010-02 keres theme 
+# Default aptosid 2010-02 keres theme 
 # for xfce4 based on the balou engine
 #
-# Copyright (c) 2010 David Creedy <klaymen@sidux.com>
+# Copyright (c) 2010 David Creedy <klaymen@aptosid.com>
 # Copyright (c) 2010 Bernard Gray <bernard.gray@gmail.com>
-# Copyright (c) 2010 Rick Battle <detaos@sidux.com>
+# Copyright (c) 2010 Rick Battle <detaos@aptosid.com>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,8 +30,8 @@
 # Info section
 #
 [Info]
-Name=sidux 2010-02 (keres)
-Description=default xfce theme for sidux 2010-02 release
+Name=aptosid 2010-02 (keres)
+Description=default xfce theme for aptosid 2010-02 release
 
 #
 # splash screen settings

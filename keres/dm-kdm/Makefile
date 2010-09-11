@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-THEME= sidux-keres
-BITMAPS= files background comic-fred sidux
+THEME= aptosid-keres
+BITMAPS= files background comic-fred aptosid
 
 all: $(BITMAPS)
 
@@ -22,7 +22,7 @@ comic-fred:
 	inkscape --without-gui --export-width=108 --export-height=116 \
 		--export-png="$(THEME)/$@.png" $@.svg
 
-sidux:
+aptosid:
 	inkscape --without-gui --export-width=258 --export-height=134 \
 		--export-png="$(THEME)/$@.png" $@.svg
 
