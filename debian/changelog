@@ -1,3 +1,9 @@
+aptosid-art-keres (0.2.6) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 13:38:39 +0200
+
 aptosid-art-keres (0.2.5) unstable; urgency=low
 
   * make scripts executable again.
