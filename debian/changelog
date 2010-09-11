@@ -1,3 +1,9 @@
+aptosid-art-keres (0.2.12) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Sep 2010 20:18:27 +0200
+
 aptosid-art-keres (0.2.11) unstable; urgency=low
 
   * use edgeMode="none".
