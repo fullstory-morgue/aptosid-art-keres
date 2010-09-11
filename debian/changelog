@@ -1,8 +1,8 @@
-aptosid-art-keres (0.2.14) UNRELEASED; urgency=low
+aptosid-art-keres (0.2.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import new artwork optimizations from detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Sep 2010 02:11:43 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 08 Sep 2010 02:00:49 +0200
 
 aptosid-art-keres (0.2.13) unstable; urgency=low
 
