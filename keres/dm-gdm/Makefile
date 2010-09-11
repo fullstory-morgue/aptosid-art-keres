@@ -11,7 +11,6 @@ files:
 	cp system.png $(THEME)
 	cp GdmGreeterTheme.desktop $(THEME)
 	cp keres.xml $(THEME)
-	cp oxygen.svg $(THEME)
 	cp screenshot.png $(THEME)
 
 background:

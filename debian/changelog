@@ -1,8 +1,8 @@
-aptosid-art-keres (0.2.12) UNRELEASED; urgency=low
+aptosid-art-keres (0.2.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import xsplash fixes from detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 03 Sep 2010 20:18:27 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Sep 2010 13:41:47 +0200
 
 aptosid-art-keres (0.2.11) unstable; urgency=low
 
