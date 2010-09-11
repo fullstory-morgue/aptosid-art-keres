@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="132"
@@ -29,8 +28,8 @@
        inkscape:menu-tooltip="Blur as if the object flies vertically; adjust Standard Deviation to vary force"
        color-interpolation-filters="sRGB"
        width="2"
-       height="4"
-       y="-1.5"
+       height="8"
+       y="-3.5"
        x="-0.5">
       <feTurbulence
          id="feTurbulence4204"
@@ -168,39 +167,9 @@
          id="feColorMatrix4282" />
       <feGaussianBlur
          id="feGaussianBlur4284"
-         in="fbSourceGraphic"
-         stdDeviation="0.01 60" />
+         in="result4"
+         stdDeviation="0.01 100" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5088"
-       id="linearGradient3952"
-       x1="533.05945"
-       y1="1583.1045"
-       x2="533.05945"
-       y2="1457.2866"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5088">
-      <stop
-         style="stop-color:#af0000;stop-opacity:1;"
-         offset="0"
-         id="stop5090" />
-      <stop
-         style="stop-color:#af0000;stop-opacity:0;"
-         offset="1"
-         id="stop5092" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5088"
-       id="linearGradient3979"
-       gradientUnits="userSpaceOnUse"
-       x1="533.05945"
-       y1="1583.1045"
-       x2="533.05945"
-       y2="1457.2866" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -210,16 +179,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="322.4991"
-     inkscape:cy="606.56689"
+     inkscape:cx="-285.5009"
+     inkscape:cy="425.56689"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="876"
-     inkscape:window-height="482"
-     inkscape:window-x="308"
-     inkscape:window-y="598"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1148"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -247,9 +216,9 @@
        inkscape:label="aptosid"
        id="aptosid-blur"
        transform="matrix(1.2402429,0,0,1.2402429,-191.63882,-1410.7384)"
-       style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
+       style="fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
       <path
-         style="fill:#af0000;fill-opacity:1;fill-rule:nonzero;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#af0000;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m 207.94439,1485.6954 c -9.0469,10e-5 -16.51565,3.5156 -22.375,10.5 l 0,-9 -11.32858,0 0,83.875 -13.21875,0 0,11.5937 24.54733,0 0,-36.2812 c 5.85935,6.9844 13.3281,10.4687 22.375,10.4687 9.4687,0 17.54682,-3.5625 24.25,-10.6875 6.56243,-7.0313 9.84368,-15.2968 9.84375,-24.8125 -7e-5,-9.5155 -3.28132,-17.7968 -9.84375,-24.875 -6.70318,-7.1718 -14.7813,-10.7811 -24.25,-10.7812 z m 0,11.625 c 6.28121,0 11.62495,2.4531 16.03125,7.375 4.26557,4.7813 6.37494,10.3282 6.375,16.6562 -6e-5,6.2813 -2.15631,11.7969 -6.46875,16.5313 -4.45318,4.9219 -9.75004,7.375 -15.9375,7.375 -6.23441,0 -11.53128,-2.4531 -15.84375,-7.375 -4.12502,-4.6875 -6.18752,-10.2031 -6.1875,-16.5313 -2e-5,-6.3749 2.04685,-11.9218 6.125,-16.6562 4.31247,-4.9219 9.62497,-7.375 15.90625,-7.375 z"
          id="p_"
          inkscape:connector-curvature="0"

@@ -19,7 +19,7 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:modified="true"
    version="1.0"
-   inkscape:export-filename="aptosid-keres-wide-light-fork.png"
+   inkscape:export-filename="aptosid-keres-wide.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline">
@@ -28,11 +28,11 @@
     <linearGradient
        id="linearGradient7162">
       <stop
-         style="stop-color:#eeeeee;stop-opacity:1;"
+         style="stop-color:#cccccc;stop-opacity:1;"
          offset="0"
          id="stop7164" />
       <stop
-         style="stop-color:#999999;stop-opacity:1;"
+         style="stop-color:#666666;stop-opacity:1;"
          offset="1"
          id="stop7166" />
     </linearGradient>
@@ -366,8 +366,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="1033.5136"
-     inkscape:cy="597.61706"
+     inkscape:cx="1123.0525"
+     inkscape:cy="561.61223"
      inkscape:document-units="px"
      inkscape:current-layer="layer9"
      inkscape:window-width="1600"
@@ -410,7 +410,8 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="frame backgrounds"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect9240"
@@ -443,10 +444,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer14"
-     inkscape:label="aptosid">
+     inkscape:label="aptosid"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
-       transform="matrix(0.73580941,0,0,0.73580941,859.1765,664.2296)"
+       transform="matrix(0.73580941,0,0,0.73580941,944.1765,664.2296)"
        id="layer1-7"
        inkscape:label="aptosid">
       <g
@@ -479,7 +481,7 @@
              y="1555.3855"
              dx="0 0 26.252148"
              style="font-weight:normal;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Dustismo"><tspan
-               dx="-0.98228282 -4.3535538 121.26881"
+               dx="-0.98228282 -4.3535538 121.26881 0 0 0 0 0 -15.34108 -8.7663307 -10.957915"
                style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo"
                id="tspan3960"><tspan
    style="font-weight:bold;-inkscape-font-specification:Dustismo Bold"
@@ -541,7 +543,7 @@
              sodipodi:role="line"><tspan
                id="tspan3117"
                style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient6578);fill-opacity:1;stroke:#ffffff;stroke-width:2.05700612;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-               dx="-0.98228282 -4.3535538 121.26881"><tspan
+               dx="-0.98228282 -4.3535538 121.26881 0 0 0 0 0 -15.341081 -8.7663307 -10.957915"><tspan
    style="font-weight:bold;fill:url(#linearGradient6578);-inkscape-font-specification:Dustismo Bold"
    id="tspan6590">to</tspan>  : Κῆρες</tspan></tspan></text>
         <path
@@ -575,7 +577,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="frame1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 650.33333,562.66667 c 0,0 8.60129,-9.76063 13.18519,-14.37037 1.75759,-1.76749 5.48148,-5.08643 5.48148,-5.08643 0,0 -5.35504,4.03858 -7.85185,6.27161 -5.46587,4.88841 -15.55556,15.55556 -15.55556,15.55556 z"
@@ -1068,7 +1071,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="frame2"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        d="M 986.25,504.75 C 939.57602,504.60574 892.88951,507.85204 845,515 c -3.03056,0.45234 -4.90952,2.98439 -5.75,5.5 -1.79297,5.36648 -0.68971,12.25753 2.75,16.75 1.8364,2.39846 3.49729,4.18531 8.25,3.75 51.60622,-4.72671 91.18552,-6.36643 145.25,-5 54.0645,1.36643 119.2123,8.48727 178.3326,18.39314 l -0.5424,-31.12153 c 0,0 -61.8721,-12.18284 -123.2902,-16.27161 -21.3232,-1.41954 -42.5346,-2.18443 -63.75,-2.25 z m 117.5753,42.16984 -15.4815,119.14266 c 0,0 18.0818,-4.42 40.6562,-5.4375 24.4733,-1.10309 44.8396,2.25155 44.8396,2.25155 l -0.053,-105.5054 c 0,0 -23.5837,-5.07134 -40.9558,-7.32717 -17.3721,-2.25583 -29.0052,-3.12414 -29.0052,-3.12414 z"
@@ -1482,7 +1486,8 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="frame3"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 1213.1111,677.55555 c 0,0 67.2836,-76.51252 103.5556,-112.22222 30.8039,-30.32631 96.6666,-86.44444 96.6666,-86.44444 0,0 -61.9065,60.6103 -92.6666,91.11111 -36.0033,35.69982 -107.5556,107.55555 -107.5556,107.55555 z"
@@ -2175,7 +2180,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="frame borders">
+     inkscape:label="frame borders"
+     sodipodi:insensitive="true">
     <rect
        style="fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="rect9240-0"

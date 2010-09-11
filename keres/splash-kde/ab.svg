@@ -29,8 +29,8 @@
        inkscape:menu-tooltip="Blur as if the object flies vertically; adjust Standard Deviation to vary force"
        color-interpolation-filters="sRGB"
        width="2"
-       height="4"
-       y="-1.5"
+       height="8"
+       y="-3.5"
        x="-0.5">
       <feTurbulence
          id="feTurbulence4204"
@@ -169,7 +169,7 @@
       <feGaussianBlur
          id="feGaussianBlur4284"
          in="fbSourceGraphic"
-         stdDeviation="0.01 60" />
+         stdDeviation="0.01 100" />
     </filter>
     <linearGradient
        inkscape:collect="always"
@@ -210,16 +210,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="292.29095"
-     inkscape:cy="600.63081"
+     inkscape:cx="-211.70905"
+     inkscape:cy="588.63081"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="876"
-     inkscape:window-height="482"
-     inkscape:window-x="385"
-     inkscape:window-y="547"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1148"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -247,13 +247,13 @@
        inkscape:label="aptosid"
        id="aptosid-blur"
        transform="matrix(1.2402429,0,0,1.2402429,-94.63882,-1410.7384)"
-       style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
+       style="fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
       <path
          sodipodi:nodetypes="ccssscccccccccscccscscs"
          inkscape:connector-curvature="0"
          id="a_"
          d="m 126.30444,1485.6954 c -9.51565,10e-5 -17.87502,3.5626 -25.09375,10.6875 -7.17188,7.1251 -10.78126,15.4219 -10.78125,24.9375 -1e-5,9.5156 3.54687,17.8281 10.625,24.9062 7.07811,7.0781 15.39059,10.625 24.90625,10.625 9.11103,0 16.58644,-3.4982 22.4375,-10.4375 l 0,8.9375 15.99556,0 0,-11.5937 -4.65625,0 0,-55.8125 -11.27681,0 0,8.2187 c -5.53131,-6.9843 -12.92192,-10.4686 -22.15625,-10.4687 z m 0,11.5937 c 6.28121,0 11.5312,2.4532 15.75,7.375 4.03119,4.7344 6.03118,10.2813 6.03125,16.6563 -7e-5,6.3281 -2.07818,11.8594 -6.25,16.5937 -4.35942,4.875 -9.64067,7.3125 -15.875,7.3125 -6.32816,0 -11.9219,-2.3749 -16.75,-7.1562 -4.78126,-4.8281 -7.15627,-10.4219 -7.15625,-16.75 -2e-5,-6.3281 2.45311,-11.8906 7.375,-16.7188 4.92185,-4.875 10.54684,-7.3125 16.875,-7.3125 z"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold" />
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold" />
     </g>
   </g>
 </svg>

@@ -29,8 +29,8 @@
        inkscape:menu-tooltip="Blur as if the object flies vertically; adjust Standard Deviation to vary force"
        color-interpolation-filters="sRGB"
        width="2"
-       height="4"
-       y="-1.5"
+       height="8"
+       y="-3.5"
        x="-0.5">
       <feTurbulence
          id="feTurbulence4204"
@@ -169,7 +169,7 @@
       <feGaussianBlur
          id="feGaussianBlur4284"
          in="fbSourceGraphic"
-         stdDeviation="0.01 60" />
+         stdDeviation="0.01 100" />
     </filter>
     <linearGradient
        inkscape:collect="always"
@@ -210,16 +210,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="323.4991"
-     inkscape:cy="609.56689"
+     inkscape:cx="-228.0009"
+     inkscape:cy="575.56689"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="876"
-     inkscape:window-height="482"
-     inkscape:window-x="306"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1148"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -247,22 +247,22 @@
        inkscape:label="aptosid"
        id="aptosid-blur"
        transform="matrix(1.2402429,0,0,1.2402429,-289.63882,-1410.7384)"
-       style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
+       style="fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4202)">
       <text
          sodipodi:linespacing="125%"
          id="to_"
          y="1555.3855"
          x="246.53732"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
          xml:space="preserve"><tspan
-           style="fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            dx="0"
            y="1555.3855"
            x="246.53732"
            id="tspan3958"
            sodipodi:role="line"><tspan
              id="tspan3960"
-             style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:4.11401224;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
+             style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.11401224000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Dustismo;-inkscape-font-specification:Dustismo Bold"
              dx="-4.3535538">o</tspan></tspan></text>
     </g>
   </g>
