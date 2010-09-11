@@ -1,8 +1,8 @@
-aptosid-art-keres (0.2.13) UNRELEASED; urgency=low
+aptosid-art-keres (0.2.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * keres/dm-gdm/keres.xml fixes from detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Sep 2010 13:42:28 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 Sep 2010 02:08:32 +0200
 
 aptosid-art-keres (0.2.12) unstable; urgency=low
 
