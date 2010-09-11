@@ -2,9 +2,8 @@
 
 THEME= aptosid-keres
 CONTROLDIR= 1920x1200
-PARTS= fred
 
-all: prepare background $(PARTS) letters
+all: prepare background letters
 
 prepare:
 	$(RM) -r $(THEME)
@@ -15,22 +14,16 @@ prepare:
 	cp Theme.rc $(THEME)/
 	cp Preview.png $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
+	ln -s ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
 
 background:
-	inkscape --without-gui --export-width=1280 --export-height=1024 \
-		--export-png="$(THEME)/1280x1024/$@.png" $@.svg
-	inkscape --without-gui --export-width=1600 --export-height=1200 \
-		--export-png="$(THEME)/1600x1200/$@.png" $@.svg
-	inkscape --without-gui --export-width=1920 --export-height=1080 \
-		--export-png="$(THEME)/1920x1080/$@.png" $@-wide.svg
+	ln -s ../1600x1200/$@.png $(THEME)/1280x1024/$@.png
+	inkscape --without-gui --export-png="$(THEME)/1600x1200/$@.png" $@.svg
+	ln -s ../$(CONTROLDIR)/$@.png $(THEME)/1920x1080/$@.png
 	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
-
-fred:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@.svg
 
 letters:
 	./make_the_letters
 
 clean:
 	$(RM) -r $(THEME)
-	$(RM) -f u_anim.png u_anim.svg ub_anim.png ub_anim.svg

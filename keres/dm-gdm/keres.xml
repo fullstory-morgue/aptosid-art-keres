@@ -30,14 +30,14 @@ files: session.png, system.png and oyxgen.svg -
 		<normal file="background.png"/>
 		<pos anchor="nw" x="0%" y="0%" width="100%" height="100%"/>
 	</item>
-	<!--aptosid text-->
-	<!--item type="pixmap" id="logo" >
+	<!--Aptosid text-->
+	<item type="pixmap" id="logo" >
 		<normal file="aptosid.png"/>
-		<pos anchor="nw" x="20" y="20" />
-	</item-->
+		<pos anchor="nw" x="0" y="0" />
+	</item>
 	<!--Welcome label-->
 	<item type="label" id="welcome">
-		<pos anchor="nw" x="290" y="75"/>
+		<pos anchor="nw" x="330" y="75"/>
 		<normal color="#8BAFBA" font="Sans 16"/>
 		<stock type="welcome-label"/>
 	</item>

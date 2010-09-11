@@ -23,7 +23,7 @@ comic-fred:
 		--export-png="$(THEME)/$@.png" $@.svg
 
 aptosid:
-	inkscape --without-gui --export-width=258 --export-height=134 \
+	inkscape --without-gui --export-width=330 --export-height=190 \
 		--export-png="$(THEME)/$@.png" $@.svg
 
 clean:
