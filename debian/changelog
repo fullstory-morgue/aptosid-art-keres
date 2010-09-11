@@ -1,8 +1,8 @@
-aptosid-art-keres (0.2.6) UNRELEASED; urgency=low
+aptosid-art-keres (0.2.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * rename dm-gdm/keres.xml to dm-gdm/aptosid-keres.xml, thanks to x-un-i.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 13:38:39 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 20:43:56 +0200
 
 aptosid-art-keres (0.2.5) unstable; urgency=low
 
