@@ -7,6 +7,7 @@ all: $(BITMAPS)
 
 files:
 	mkdir $(THEME)
+	cp language.png $(THEME)
 	cp session.png $(THEME)
 	cp system.png $(THEME)
 	cp GdmGreeterTheme.desktop $(THEME)
