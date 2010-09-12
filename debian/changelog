@@ -1,3 +1,9 @@
+aptosid-art-keres (0.2.16) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 18:46:27 +0200
+
 aptosid-art-keres (0.2.15) unstable; urgency=low
 
   * add language.png to dm-gdm again.
