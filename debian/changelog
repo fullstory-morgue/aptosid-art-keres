@@ -1,6 +1,7 @@
 aptosid-art-keres (0.2.16) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * refresh SVG graphics, shut up inkscape's migration from old versions.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 18:46:27 +0200
 
